@@ -8,10 +8,9 @@ alias reloaddns="dscacheutil -flushcache && sudo killall -HUP mDNSResponder"
 
 # Directories
 alias dotfiles="cd $DOTFILES"
-alias library="cd $HOME/Library"
 
 # Laravel
-alias a="php artisan"
+alias artisan="php artisan"
 
 # Docker
 dclean() { docker rm -v $(docker ps -a -q -f status=exited) }
