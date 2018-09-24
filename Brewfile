@@ -17,11 +17,12 @@ brew 'zsh'
 brew 'zsh-completions'
 
 # Development
+brew 'nvm'
 brew 'go'
 brew 'dep'
+brew 'yarn'
 brew 'php'
 brew 'mysql'
-brew 'nvm'
 brew 'redis'
 
 # Apps
