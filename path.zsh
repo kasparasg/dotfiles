@@ -16,4 +16,4 @@ export PATH="$GOPATH/bin:$PATH"
 
 # NVM
  export NVM_DIR="$HOME/.nvm"
-  . "/usr/local/opt/nvm/nvm.sh"
+  . $(brew --prefix nvm)/nvm.sh

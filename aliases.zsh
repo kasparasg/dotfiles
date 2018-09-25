@@ -8,7 +8,7 @@ alias reloaddns="dscacheutil -flushcache && sudo killall -HUP mDNSResponder"
 
 # Directories
 alias dotfiles="cd $DOTFILES"
-alias gogo="cd $GOPATH"
+alias gogo="cd $HOME/Dev/Go"
 
 # Laravel
 alias artisan="php artisan"
