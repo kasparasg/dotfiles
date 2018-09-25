@@ -30,9 +30,6 @@ mv composer.phar /usr/local/bin/composer
 # Install Laravel Valet
 $HOME/.composer/vendor/bin/valet install
 
-# Install latest node
-nvm install node
-
 # Create a Dev directory
 # This is a default directory for macOS user accounts but doesn't comes pre-installed
 mkdir $HOME/Dev
