@@ -52,6 +52,9 @@ ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/the
 # Symlink the Mackup config file to the home directory
 ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
 
+# Symlink .gitignore_global
+ln -s $HOME/.dotfiles/.gitignore_global $HOME/.gitignore_global
+
 # Set macOS preferences
 # We will run this last because this will reload the shell
 source .macos
