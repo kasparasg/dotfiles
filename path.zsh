@@ -13,3 +13,7 @@ export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 # Go
 export GOPATH="$HOME/Dev/Go"
 export PATH="$GOPATH/bin:$PATH"
+
+# NVM
+ export NVM_DIR="$HOME/.nvm"
+  . "/usr/local/opt/nvm/nvm.sh"
