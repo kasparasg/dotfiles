@@ -17,3 +17,7 @@ export PATH="$GOPATH/bin:$PATH"
 # NVM
  export NVM_DIR="$HOME/.nvm"
   . $(brew --prefix nvm)/nvm.sh
+
+# Instantclient for Oracle
+export LD_LIBRARY_PATH="$HOME/instantclient_12_2"
+export PKG_CONFIG_PATH="$HOME/instantclient_12_2"
