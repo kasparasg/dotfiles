@@ -18,3 +18,9 @@ dclean() { docker rm -v $(docker ps -a -q -f status=exited) }
 diclean() { docker rmi $(docker images -f "dangling=true" -q) }
 dbuild() { docker build -t=$1 .; }
 dbash() { docker exec -it $(docker ps -aqf "name=$1") bash; }
+
+# Yarn
+yarn-reinstall() {
+  rm -rf node_modules
+  yarn install
+}

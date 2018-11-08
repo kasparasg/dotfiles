@@ -19,5 +19,6 @@ export PATH="$GOPATH/bin:$PATH"
   . $(brew --prefix nvm)/nvm.sh
 
 # Instantclient for Oracle
+# NOTE: hopefully I won't need this soon...
 export LD_LIBRARY_PATH="$HOME/instantclient_12_2"
 export PKG_CONFIG_PATH="$HOME/instantclient_12_2"
