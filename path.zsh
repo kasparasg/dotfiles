@@ -20,5 +20,5 @@ export PATH="$GOPATH/bin:$PATH"
 
 # Instantclient for Oracle
 # NOTE: hopefully I won't need this soon...
-export LD_LIBRARY_PATH="$HOME/instantclient_12_2"
-export PKG_CONFIG_PATH="$HOME/instantclient_12_2"
+export LD_LIBRARY_PATH="/opt/oracle/instantclient"
+export PKG_CONFIG_PATH="/opt/oracle/instantclient"
