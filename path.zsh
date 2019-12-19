@@ -18,6 +18,9 @@ export PATH="$GOPATH/bin:$PATH"
  export NVM_DIR="$HOME/.nvm"
   . $(brew --prefix nvm)/nvm.sh
 
+# RVM
+source $HOME/.rvm/scripts/rvm
+
 # Instantclient for Oracle
 # NOTE: hopefully I won't need this soon...
 export LD_LIBRARY_PATH="/opt/oracle/instantclient"
