@@ -29,15 +29,13 @@ cask 'caffeine'
 cask 'docker'
 cask 'dropbox'
 cask 'google-chrome'
-cask 'insomnia'
 cask 'sequel-pro'
-cask 'shuttle'
 cask 'slack'
 cask 'visual-studio-code'
 cask 'spotify'
 cask 'skype'
 cask 'vscode'
-cask 'hyper'
+cask 'iterm2'
 
 # Quicklook
 cask 'qlcolorcode'
@@ -50,9 +48,3 @@ cask 'font-fira-code'
 cask 'font-fira-mono-for-powerline'
 cask 'font-fira-mono'
 cask 'font-fira-sans'
-
-# Install Mac App Store apps
-mas '1Password', id: 1333542190
-mas 'Todoist', id: 572688855
-mas 'WhatsApp', id: 1147396723
-mas 'Bear', id: 1091189122
