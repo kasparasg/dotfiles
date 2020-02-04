@@ -252,6 +252,12 @@ for app in "Activity Monitor" "Address Book" "Calendar" "Contacts" "cfprefsd" \
     killall "${app}" &> /dev/null
 done
 
+###############################################################################
+# Gatekeeper                                                                      #
+###############################################################################
+
+sudo spctl --master-disable
+
 echo "Done. Note that some of these changes require a logout/restart to take effect."
 
 
