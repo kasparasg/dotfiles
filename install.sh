@@ -49,9 +49,6 @@ ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
 ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
 
-# Symlink the Mackup config file to the home directory
-ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
-
 # Symlink .gitignore_global
 ln -s $HOME/.dotfiles/.gitignore_global $HOME/.gitignore_global
 
