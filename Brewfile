@@ -22,8 +22,6 @@ brew 'mysql'
 brew 'redis'
 
 # Apps
-cask 'caffeine'
-cask 'docker'
 cask 'dropbox'
 cask 'google-chrome'
 cask 'slack'
