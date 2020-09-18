@@ -20,8 +20,3 @@ export PATH="$GOPATH/bin:$PATH"
 
 # RVM
 source $HOME/.rvm/scripts/rvm
-
-# Instantclient for Oracle
-# NOTE: hopefully I won't need this soon...
-export LD_LIBRARY_PATH="/opt/oracle/instantclient"
-export PKG_CONFIG_PATH="/opt/oracle/instantclient"
